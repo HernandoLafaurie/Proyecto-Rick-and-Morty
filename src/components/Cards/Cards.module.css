@@ -1,10 +1,10 @@
 .CardsContainer{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    display:flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
-    padding: 10px;
+    padding: 1px;
     width: screen;
-    margin: auto;
+    margin: 50px;
     height: full;
     overflow: hidden;
 }

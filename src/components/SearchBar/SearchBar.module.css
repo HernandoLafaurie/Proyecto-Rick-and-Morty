@@ -1,21 +1,31 @@
-.SearchBarContainer{
+SearchBarContainer{
     display: flex;
     justify-content: center;
+    height: 50px;
 }
 
 input{
     background-color: rgba(9, 30, 219, 0.938);
     font-family: cursive;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 10px 10px;
     border-color: rgb(0, 0, 0);
+    width: 30%;
+    font-size: 40px;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 0px 10px 10px 0px;
-    border-color: rgb(241, 241, 241);
-    color: black;
-    background-color: rgb(80, 150, 255);
+    border-radius: 100px 100px 100px 100px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 0, 170);
+    width: 200px;
+    height: 50px;
 }
 
 button:hover{

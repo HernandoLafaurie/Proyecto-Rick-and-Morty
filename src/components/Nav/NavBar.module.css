@@ -1,5 +1,4 @@
 .NavContainer{
-    background-color: black;
-    border-color: mediumblue;
-    border-style:groove;
+    background-color: transparent;
+    height: 50px;
 }

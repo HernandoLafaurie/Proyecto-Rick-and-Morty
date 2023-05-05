@@ -1,4 +1,14 @@
+.App {
+   text-align: center;
+   font-family: cursive;
+   background-image: url(https://virtual-bg.com/wp-content/uploads/2020/06/rick-and-morty-garage-background.png);
+   background-size:auto;
+   background-attachment: fixed;
+   background-position: center;
+}
+
 .AppContainer {
    text-align: center;
    font-family: cursive;
 }
+
