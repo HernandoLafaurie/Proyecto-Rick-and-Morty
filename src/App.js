@@ -26,8 +26,8 @@ function App() {
          characters.filter((characters)=>{
             return characters.id !== Number(id)
          })
-      )
-   }
+         )
+      }
 
    return (
       <div className={style.AppContainer}>

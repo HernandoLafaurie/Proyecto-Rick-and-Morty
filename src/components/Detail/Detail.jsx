@@ -20,15 +20,15 @@ const Detail = () =>{
      }, [id]);
 
     return(
-        <div className={style.DetailContainer}>
-            <div className={style.DetailPropsContainer}>
+        <div className= {style.DetailContainer} >
+            <div className= {style.DetailPropsContainer} >
                 <h1>Name: '{character.name && character.name}'</h1>
                 <h1>Status: '{character.status && character.status}'</h1>
                 <h1>Species '{character.species && character.species}'</h1>
                 <h1>Gender: '{character.gender && character.gender}'</h1>
                 <h1>Origin: '{character.origin?.name && character.origin?.name}'</h1>
             </div>
-            <div className={style.ButtonContainer}>
+            <div>
                 <Link to='/home'>
                     <button>HOME</button>
                 </Link>
@@ -37,4 +37,4 @@ const Detail = () =>{
     )
 }
 
-export default Detail
+export default Detail 

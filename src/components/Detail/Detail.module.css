@@ -7,7 +7,7 @@
     margin: 100px 750px;
     border: solid 2px rgba(4, 0, 255, 0.425);
     border-radius: 40px;
-    background-image: url(https://w0.peakpx.com/wallpaper/858/751/HD-wallpaper-portal-gun-note-10-rick-and-morty-s-10.jpg);
+    background-image: url(../img/Portal\ de\ Rick.jpg);
     background-size: cover;
     background-position: center;
     transition: all 0.5s ease;
@@ -20,3 +20,4 @@
     flex-direction: column;
     color: white;
 }
+
