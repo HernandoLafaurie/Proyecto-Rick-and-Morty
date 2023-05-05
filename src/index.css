@@ -1,4 +1,8 @@
 body {
+  background-image: url(https://virtual-bg.com/wp-content/uploads/2020/06/rick-and-morty-garage-background.png);
+  background-size:auto;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

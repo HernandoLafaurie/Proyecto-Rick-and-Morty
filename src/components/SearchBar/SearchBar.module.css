@@ -1,0 +1,25 @@
+.SearchBarContainer{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background-color: rgba(9, 30, 219, 0.938);
+    font-family: cursive;
+    border-radius: 10px 0px 0px 10px;
+    border-color: rgb(0, 0, 0);
+}
+
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0px 10px 10px 0px;
+    border-color: rgb(241, 241, 241);
+    color: black;
+    background-color: rgb(80, 150, 255);
+}
+
+button:hover{
+    color: rgb(253, 253, 253);
+    background-color: rgb(245, 0, 0);
+    cursor: pointer;
+}

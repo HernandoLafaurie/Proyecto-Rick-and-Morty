@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 700px;
+    border: solid 2px rgba(4, 0, 255, 0.425);
+    border-radius: 40px;
+    background-image: url(https://w0.peakpx.com/wallpaper/858/751/HD-wallpaper-portal-gun-note-10-rick-and-morty-s-10.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px rgb(4, 0, 233);
+}
+
+.ButtonContainer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.button{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgb(101, 111, 255);
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.ImgContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.NameContainer{
+    background-color: rgba(62, 60, 209, 0.6);
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+.PropsContainer{
+    background-color: rgba(5, 63, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
