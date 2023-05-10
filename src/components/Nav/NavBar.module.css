@@ -2,3 +2,9 @@
     background-color: transparent;
     height: 50px;
 }
+
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}

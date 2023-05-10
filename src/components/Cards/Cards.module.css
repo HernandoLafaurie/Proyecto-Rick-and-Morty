@@ -2,9 +2,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    padding: 1px;
     width: screen;
-    margin: 50px;
     height: full;
     overflow: hidden;
 }

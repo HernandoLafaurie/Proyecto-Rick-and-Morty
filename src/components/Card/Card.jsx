@@ -11,8 +11,6 @@ const Card = ({ id, name, status, species, gender, origin, image, onClose }) => 
             <div className={style.PropsContainer}>
                <h2>Species: {species}</h2>
                <h2>Gender: {gender}</h2>
-               <h2>Status: {status}</h2>
-               <h2>Origin: {origin}</h2>
             </div>
             
             <div className={style.ImgContainer}>

@@ -21,6 +21,7 @@ const Detail = () =>{
 
     return(
         <div className= {style.DetailContainer} >
+
             <div className= {style.DetailPropsContainer} >
                 <h1>Name: '{character.name && character.name}'</h1>
                 <h1>Status: '{character.status && character.status}'</h1>
@@ -28,7 +29,8 @@ const Detail = () =>{
                 <h1>Gender: '{character.gender && character.gender}'</h1>
                 <h1>Origin: '{character.origin?.name && character.origin?.name}'</h1>
             </div>
-            <div>
+
+            <div className={style.ButtonContainer}>
                 <Link to='/home'>
                     <button>HOME</button>
                 </Link>

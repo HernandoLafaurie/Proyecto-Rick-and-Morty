@@ -1,0 +1,36 @@
+.FormsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    margin: 90px 350px;
+    padding:100px;
+    border: solid 2px rgba(4, 0, 255, 0.425);
+    border-radius: 40px;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-007.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px rgb(4, 0, 233);
+}
+
+.InputContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(9, 30, 219, 0.938);
+    font-family: cursive;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+    color: white;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}

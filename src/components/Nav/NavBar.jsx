@@ -7,13 +7,16 @@ const NavBar = ({onSearch}) => {
         <div className={style.NavContainer}>
             <SearchBar onSearch={onSearch}/>
 
-            <Link to='/home'>
-                <button>Home</button>
-            </Link>
+            <div className={style.ButtonContainer} >
+                <Link to='/home'>
+                    <button>Home</button>
+                </Link>
 
-            <Link to='/about'>
-                <button>About</button>
-            </Link>
+                <Link to='/about'>
+                    <button>About</button>
+                </Link>
+            </div>
+
         </div>
     )
 }

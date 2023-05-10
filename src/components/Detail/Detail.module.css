@@ -19,5 +19,10 @@
     display: flex;
     flex-direction: column;
     color: white;
+    align-items: center;
 }
-
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
