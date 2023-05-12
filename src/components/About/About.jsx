@@ -1,7 +1,9 @@
+import style from './About.module.css'
+
 const About = () =>{
     return(
-        <div>
-            <h1>Hola mongoles</h1>
+        <div className={style.DetailContainer} >
+            <h1>ERROR 404</h1>
         </div>
     )
 }

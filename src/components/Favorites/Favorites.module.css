@@ -1,0 +1,32 @@
+.FavoritesContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: screen;
+    height: full;
+    overflow: hidden;
+}
+
+.SelectContainer{
+    display: flex;
+    justify-content: center;
+    margin: 70px 700px ;
+}
+
+select{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(17, 0, 170);
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+select:hover{
+    color: rgb(253, 253, 253);
+    background-color: rgb(7, 135, 240);
+    cursor: pointer;
+}

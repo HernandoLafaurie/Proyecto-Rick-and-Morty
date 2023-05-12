@@ -1,11 +1,8 @@
-export default (data) => {
+const validation = (data) => {
     let  errors = {};
 
     if(!data.email.includes('@')){
         errors.e1 = 'Email is not valid';
-    }
-    if(!data.email){
-        errors.e2 = 'Ingrese Email'
     }
     if(data.email.length > 35){
         errors.e3 = 'Menos de 35 caracteres'
@@ -18,3 +15,5 @@ export default (data) => {
     }
     return errors
 };
+
+export default validation

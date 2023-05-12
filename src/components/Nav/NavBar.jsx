@@ -15,10 +15,14 @@ const NavBar = ({onSearch}) => {
                 <Link to='/about'>
                     <button>About</button>
                 </Link>
+
+                <Link to='/favorites'>
+                    <button>Favorites</button>
+                </Link>
             </div>
 
         </div>
-    )
-}
+    );
+};
 
 export default NavBar

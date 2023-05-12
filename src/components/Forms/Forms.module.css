@@ -7,11 +7,12 @@
     padding:100px;
     border: solid 2px rgba(4, 0, 255, 0.425);
     border-radius: 40px;
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-007.jpg);
+    background-image: url(../img/Morty\ Login.webp);
     background-size: cover;
     background-position: center;
     transition: all 0.5s ease;
-    box-shadow: 0 0 20px rgb(4, 0, 233);
+    box-shadow: 0 0 20px rgb(240, 240, 240);
+    border-color: blue;
 }
 
 .InputContainer{
@@ -27,6 +28,8 @@
     width: 75%;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 20px rgb(240, 240, 240);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ButtonContainer{
@@ -34,3 +37,4 @@
     justify-content: center;
     height: 50px;
 }
+

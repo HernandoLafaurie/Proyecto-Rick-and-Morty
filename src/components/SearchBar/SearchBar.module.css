@@ -9,8 +9,8 @@ input{
     font-family: cursive;
     border-radius: 10px 10px 10px 10px;
     border-color: rgb(0, 0, 0);
-    width: 30%;
-    font-size: 40px;
+    width: 60%;
+    font-size: 20px;
 }
 
 input:hover{
@@ -30,6 +30,6 @@ button{
 
 button:hover{
     color: rgb(253, 253, 253);
-    background-color: rgb(245, 0, 0);
+    background-color: rgb(7, 135, 240);
     cursor: pointer;
 }
