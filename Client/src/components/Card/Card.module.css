@@ -1,8 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     border: solid 2px rgba(4, 0, 255, 0.425);
     border-radius: 40px;
     background-image: url(../img/Pistola\ Proyecto.PNG);
@@ -15,7 +15,8 @@
 }
 
 img{
-    width: 210px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -24,12 +25,6 @@ img{
     flex-direction: column-reverse;
     margin-top: 10px;
     align-items: center;
-}
-
-.NameContainer{
-    background-color: rgba(62, 60, 209, 0.6);
-    position: absolute;
-    margin-bottom: 0px;
 }
 
 .ButtonContainer{

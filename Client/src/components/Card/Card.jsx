@@ -40,7 +40,6 @@ const Card = ({id, name, status, species, gender, origin, image, onClose, addFav
         
             <div className={style.ImgContainer}>
                <img src={image} alt='' />
-               <h2 className={style.NameContainer}>Name: {name}</h2>
             </div>
          </Link>
       </div>

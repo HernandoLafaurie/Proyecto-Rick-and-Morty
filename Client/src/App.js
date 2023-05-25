@@ -8,8 +8,6 @@ import About from "./components/About/About.jsx";
 import Detail from "./components/Detail/Detail.jsx";
 import Forms from "./components/Forms/Forms.jsx";
 import Favorites from "./components/Favorites/Favorites.jsx";
-const EMAIL = 'Wang@gmail.com';
-const PASSWORD = 'wang1234';
 
 
 function App() {
@@ -21,12 +19,15 @@ function App() {
   const [access, setAccess] = useState(false);
 
 
-function login(userData) {
-   if (userData.password === PASSWORD && userData.email === EMAIL) {
-      setAccess(true);
-      navigate('/home');
-   }
-};
+  function login(userData) {
+    const { email, password } = userData;
+    const URL = 'http://localhost:3001/rickandmorty/login/';
+    axios(URL + `?email=${email}&password=${password}`).then(({ data }) => {
+       const { access } = data;
+       setAccess(access);
+       access && navigate('/home');
+    });
+ };
 
 useEffect(() => {
   !access && navigate('/');
@@ -49,7 +50,7 @@ useEffect(() => {
   const onClose = (id) => {
     setCharacters(
       characters.filter((char) => {
-        return char.id !== Number(id);
+        return char.id !== (id);
       })
     );
   };
