@@ -24,24 +24,22 @@ const Card = ({id, name, status, species, gender, origin, image, onClose, addFav
 
    return (
       <div className={style.container}>
-         <div className={style.ButtonContainer}>
-         {
-            isFav ? (
-               <button onClick={handleFavorite}>⭐</button>
-             ) : (
-               <button onClick={handleFavorite}>🤍</button>
-            )
-         }
-            
-               <button onClick={()=> {onClose(id)}} className={style.button}>X</button>
-            </div>
-
          <Link to={`/detail/${id}`}>
-        
             <div className={style.ImgContainer}>
                <img src={image} alt='' />
             </div>
          </Link>
+
+            <div className={style.ButtonContainer}>
+               {
+                  isFav ? (
+                     <button onClick={handleFavorite}>⭐</button>
+                ) : (
+                     <button onClick={handleFavorite}>💖</button>
+                  )
+               }
+                     <button onClick={()=> {onClose(id)}} className={style.button}>X</button>
+            </div>
       </div>
 
    );

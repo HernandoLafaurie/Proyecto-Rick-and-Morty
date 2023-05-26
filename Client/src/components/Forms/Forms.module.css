@@ -7,28 +7,27 @@
     padding:100px;
     border: solid 2px rgba(4, 0, 255, 0.425);
     border-radius: 40px;
-    background-image: url(../img/Morty\ Login.webp);
+    background-image: url(../img/Login\ morty.jpg);
     background-size: cover;
     background-position: center;
     transition: all 0.5s ease;
-    box-shadow: 0 0 20px rgb(240, 240, 240);
-    border-color: blue;
+    box-shadow: 0 0 20px rgb(50, 180, 255);
+    border-color: rgb(255, 255, 255);
 }
 
 .InputContainer{
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: rgba(9, 30, 219, 0.938);
+    background-color: rgba(255, 255, 255, 0.884);
     font-family: cursive;
     border-radius: 10px 10px 10px 10px;
     border-color: rgb(0, 0, 0);
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 75%;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 20px rgb(240, 240, 240);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -36,5 +35,10 @@
     display: flex;
     justify-content: center;
     height: 50px;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 

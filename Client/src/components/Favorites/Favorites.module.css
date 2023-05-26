@@ -15,9 +15,9 @@
 
 select{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(17, 0, 170);
+    background-color: rgb(40, 213, 243);
     border-radius: 10px 10px 10px 10px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 15px;
     color: white;

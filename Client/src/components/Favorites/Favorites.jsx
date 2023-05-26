@@ -4,9 +4,9 @@ import { filterCards, orderCards } from '../Redux/Actions';
 import { useState } from "react";
 import style from './Favorites.module.css'
 
+
 const Favorites = ({ myFavorites }) => {
     const [aux, setAux] = useState(false);
-
 
     const dispatch = useDispatch();
     
@@ -18,7 +18,6 @@ const Favorites = ({ myFavorites }) => {
     const handleFilter = (event) =>{
         dispatch(filterCards(event.target.value))
     };
-
 
   return (
     <div className={style.FavoritesContainer}>
@@ -37,7 +36,7 @@ const Favorites = ({ myFavorites }) => {
       </div>
 
       {myFavorites?.map(
-        ({ id, name, status, species, gender, origin, image, onClose }) => {
+        ({ id, name, status, species, gender, origin, image, onClose}) => {
           return (
             <Card
               key={id}
