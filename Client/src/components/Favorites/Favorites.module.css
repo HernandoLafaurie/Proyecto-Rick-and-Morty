@@ -20,13 +20,13 @@ select{
     border-color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 200px;
     height: 50px;
 }
 
 select:hover{
-    color: rgb(253, 253, 253);
+    color: rgb(255, 255, 255);
     background-color: rgb(7, 135, 240);
     cursor: pointer;
 }
